@@ -1,0 +1,29 @@
+@charset "UTF-8";
+#header {
+}
+#contentL {
+	width: 350px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#contentR {
+	margin-left: 330px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: large;
+	margin-right: 25px;
+	margin-top: 5px;
+}
+#footer {
+	clear: left;
+}
+#content {
+	background-image: url(images/mainContentBg.jpg);
+	background-repeat: repeat-y;
+	width: 90%;
+	float: left;
+}

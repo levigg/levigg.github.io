@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>蘋果產銷資訊系統</title>
+<style type="text/css">
+</style>
+<link href="main.css" rel="stylesheet" type="text/css">
+<script src="main.js"></script>
+</head>
+
+<body>
+<div id="contentUp">
+<div id="header1"><img src="images/apple-system_01.gif" width="1024" height="132" alt=""/></div>
+<div id="contentUpLeft"><img src="images/apple-system_03.gif" width="958" height="109" alt=""/></div>
+<div id="contentUpRight">
+<div id="contentUpRight1">
+<label>訂購數量/天</label>
+<input type="number" id="buy1" max="100" min="0" size="5" value="0">
+<input type="number" id="buy2" min="0" max="100" size="5" value="0">
+<input type="number" id="buy3" min="0" max="100" size="5" value="0">
+<input type="number" id="buy4" min="0" max="100" size="5" value="0">
+<input type="number" id="buy5" min="0" max="100" size="5" value="0">
+<button type="button" id="buyButton" onclick="buy()">訂購</button>
+</div>
+<div id="contentUpRight2">存貨量
+<input type="text" id="inventory1" max="100" min="1" size="5" value="100">
+<input type="text" id="inventory2" min="1" max="100" size="5" value="100">
+<input type="text" id="inventory3" min="1" max="100" size="5" value="100">
+<input type="text" id="inventory4" min="1" max="100" size="5" value="100">
+<input type="text" id="inventory5" min="1" max="100" size="5" value="100">
+</div>
+
+<div id="contentUpRight3">需求率/日
+<input type="text" id="demand1" min="0" max="100" size="5" value="0">
+<input type="text" id="demand2" min="0" max="100" size="5" value="0">
+<input type="text" id="demand3" min="0" max="100" size="5" value="0">
+<input type="text" id="demand4" min="0" max="100" size="5" value="0">
+<input type="text" id="demand5" min="0" max="100" size="5" value="0">
+</div>
+
+
+<div id="contentUpRight4"><h3>其他參數</h3><p>訂購成本
+<input type="number" id="para1" max="100" min="0" size="5" value="500">年持有成本
+<input type="number" id="para2" min="0" max="100" size="5" value="300">平均前置時間
+<input type="number" id="para3" min="0" max="100" size="5" value="2"></p><p>前置時間標準差
+<input type="number" id="para4" min="0" max="100" size="5" value="3">服務水準z值
+<input type="number" id="para5" min="0" max="100" size="5" value="1.88">平滑常數
+<input type="number" id="para6" min="0" max="100" size="5" value="0.1"></p>
+</div>
+
+<div id="contentUpRight5">ROP
+<input type="text" id="rop1" max="100" min="1" size="5">
+<input type="text" id="rop2" min="1" max="100" size="5">
+<input type="text" id="rop3" min="1" max="100" size="5">
+<input type="text" id="rop4" min="1" max="100" size="5">
+<input type="text" id="rop5" min="1" max="100" size="5">
+</div>
+<div id="contentUpRight6">EOQ
+<input type="text" id="eoq1" max="100" min="1" size="5">
+<input type="text" id="eoq2" min="1" max="100" size="5">
+<input type="text" id="eoq3" min="1" max="100" size="5">
+<input type="text" id="eoq4" min="1" max="100" size="5">
+<input type="text" id="eoq5" min="1" max="100" size="5">
+</div>
+<div id="contentUpRight7">
+<button type="button" id="buyButton1" onclick="buy1()">補貨</button>
+<button type="button" id="buyButton2" onclick="buy2()">補貨</button>
+<button type="button" id="buyButton3" onclick="buy3()">補貨</button>
+<button type="button" id="buyButton4" onclick="buy4()">補貨</button>
+<button type="button" id="buyButton5" onclick="buy5()">補貨</button>
+</div>
+
+</div>
+<div id="button"><img src="images/apple-system_06.gif" width="1024" height="143" alt=""/></div>
+
+</div>
+<div id="contentDown">
+<div id="header2">
+  <img src="images/apple-system_07.gif" width="1024" height="104" alt=""/> </div>
+<div id="content2">
+
+</div>
+<div id="header3">
+  <img src="images/apple-system_09.gif" width="1024" height="92" alt=""/> </div>
+<div id="content3">
+目前無訂單
+</div>
+<div id="footer">
+  <img src="images/apple-system_11.gif" width="1024" height="27" alt=""/> </div>
+</div>
+
+
+</body>
+</html>

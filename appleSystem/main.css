@@ -1,0 +1,255 @@
+@charset "UTF-8";
+#header {
+}
+#contentUp {
+	background-color: rgba(173,255,237,1.00);
+}
+body {
+}
+#contentDown {
+	background-color: rgba(255,194,173,1.00);
+}
+#contentUpLeft {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+#button {
+	
+}
+#contentUpRight  {
+	background-color: rgba(103,178,162,1.00);
+	margin-left: 30px;
+	margin-right: 20px;
+	max-width: 960px;
+}
+#content2  {
+	background-image: url(images/apple-system_08.gif);
+	background-repeat:repeat-y;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 50px;	
+}
+#content3 {
+	background-image: url(images/apple-system_10.gif);
+	background-repeat:repeat-y;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#buy1 {
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buy2 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buy3 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buy4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buy5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#inventory1 {
+	margin-left: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#inventory2 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#inventory3 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#inventory4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#inventory5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#demand1 {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#demand2 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#demand3 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#demand4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#demand5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#para1 {
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#para2 {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 70px;
+}
+#para3 {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#para4 {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+#para5 {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#para6 {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#rop1 {
+	margin-left: 55px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#rop2 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#rop3 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#rop4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#rop5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#eoq1 {
+	margin-left: 55px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#eoq2 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#eoq3 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#eoq4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#eoq5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#buyButton1 {
+	margin-left: 95px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buyButton2 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buyButton3 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buyButton4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 90px;
+}
+#buyButton5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 50px;
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#wrapper {
+	display: block;
+	width: 960px;
+	height: 720px;
+	margin: auto;
+}
+#container  {
+	overflow-x: auto;
+	overflow-y: auto;
+}
+#prev {
+	background-image: url(images/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	height: 720px;
+	width: 100px;
+	float: left;
+	position: relative;
+	z-index: 30;
+}
+#next {
+	width: 100px;
+	height: 720px;
+	position: relative;
+	float: right;
+	background-image: url(images/arrow_03.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	z-index: 30;
+
+}
+#slider {
+	width: 960px;
+	margin: auto;
+	height: 720px;
+	float: left;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#banner {
+	width: 750px;
+	height: 130px;
+	position: relative;
+	float: left;
+	background-image: url(images/portfolio_02.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	z-index: 30;
+}
