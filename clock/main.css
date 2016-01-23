@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#hour1 {
+	float: left;
+	margin-top: 0px;	
+}
+#hour2 {
+	float: left;
+}
+#min1 {
+	float: left;
+}
+#min2 {
+	float: left;
+}
+body {
+	background-color: #000000;
+}
+#time {
+	margin-top: 10%;
+	margin-left: 10%;
+}
