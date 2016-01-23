@@ -2,9 +2,10 @@ var j;
 
 function startTime() {
     var today = new Date();
-    var h = today.getHours();
+    
     var m = today.getMinutes();
-   /* var s = today.getSeconds();
+    var s = today.getSeconds();
+	/*var h = today.getHours();
 	h = checkTime(h);
     m = checkTime(m);
     s = checkTime(s);*/
@@ -13,9 +14,9 @@ function startTime() {
     
 	
 	
-	document.getElementById('hour1').innerHTML=transform(Math.floor(h/10));					    document.getElementById('hour2').innerHTML=transform(h%10);
-	document.getElementById('min1').innerHTML=transform(Math.floor(m/10));
-	document.getElementById('min2').innerHTML=transform(m%10);
+	document.getElementById('min1').innerHTML=transform(Math.floor(m/10));					    document.getElementById('min2').innerHTML=transform(m%10);
+	document.getElementById('sec1').innerHTML=transform(Math.floor(s/10));
+	document.getElementById('sec2').innerHTML=transform(s%10);
 	
 	var t = setTimeout(startTime, 500);
 }

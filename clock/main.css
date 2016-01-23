@@ -1,17 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#hour1 {
+#min1 {
 	float: left;
 	margin-top: 0px;	
 }
-#hour2 {
-	float: left;
-}
-#min1 {
-	float: left;
-}
 #min2 {
+	float: left;
+}
+#sec1 {
+	float: left;
+}
+#sec2 {
 	float: left;
 }
 body {
