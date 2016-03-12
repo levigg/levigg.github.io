@@ -1,7 +1,51 @@
 
-.tim-container{
-    background: #ffffff;
-
+.intro-container{
+    background-color: transparent;
+    background-image: url('../img/introBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.pemelo-container{
+    background-color: transparent;
+    background-image: url('../img/pemeloBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.Ephoto-container{
+    background-color: transparent;
+    background-image: url('../img/EphotoBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.appleSystem-container{
+    background-color: transparent;
+    background-image: url('../img/appleSystemBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.clock-container{
+    background-color: transparent;
+    background-image: url('../img/clockBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.Xofa-container{
+    background-color: transparent;
+    background-image: url('../img/XofaBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.evolution-container{
+    background-color: transparent;
+    background-image: url('../img/XofaBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.Xmas-container{
+    background-color: transparent;
+    background-image: url('../img/XofaBg.png');
+    background-repeat: no-repeat;
+    margin-left: 5%;
 }
 .tim-row{
     margin-bottom: 20px;
@@ -58,7 +102,7 @@
 }
 */
 .main{
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .navigation-example{
     height: 660px;

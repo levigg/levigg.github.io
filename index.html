@@ -1,104 +1,257 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
     <link href="bootstrap3/css/font-awesome.css" rel="stylesheet" />
-    
-	<link href="assets/css/get-shit-done.css" rel="stylesheet" />  
-    <link href="assets/css/demo.css" rel="stylesheet" /> 
+
+    <link href="assets/css/get-shit-done.css" rel="stylesheet" />
+    <link href="assets/css/demo.css" rel="stylesheet" />
 
     <!--     Font Awesome     -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-  
+    
 </head>
 
 <body>
- <div id="navbar-full">
-    <div id="navbar">
-    <!--    
+    <div id="navbar-full">
+        <div id="navbar">
+            <!--    
         navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
         -->
-        <nav class="navbar navbar-ct-purple navbar-transparent navbar-fixed-top" role="navigation">
-          <div class="alert alert-success hidden">
-            <div class="container">
-                <b>Lorem ipsum</b> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-            </div>
-          </div>
-          
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Levi Huang</a>
-            </div>
-        
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #3B3A7F">Web Design <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="pemelo/index.html">林家柚子</a></li>
-                        <li><a href="Ephoto/main.html">個人攝影網站</a></li>
-                        <li><a href="appleSystem/main.html">產銷系統</a></li>
-                        <li><a href="clock/main.html">時間符號</a></li>
-                      </ul>
-                </li>
-                <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #3B3A7F">Digital Art Design <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="https://www.youtube.com/watch?v=oAHYdspTqGw&index=8&list=PLwW6Rf2wJRLut-aeIdUMpGj3WvMFsxJfI">Xofa</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=4PXvcSB8UzI&list=PLwW6Rf2wJRLuFQlxDRnFN6X_3T1nuTKwR">羽化</a></li>
-                      </ul>
-                </li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" style="color: #61607F">Create by 黃立維</a></li>
-               </ul>
-              
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-     <div class="blurred-container">
-            <div class="img-src" style="background-image: url('assets/img/leviphoto.jpg')"></div>
-            <div class='img-src blur' style="background-image: url('assets/img/leviphoto_red.jpg')"></div>
+            <nav class="navbar navbar-ct-purple navbar-transparent navbar-fixed-top" role="navigation">
+                <div class="alert alert-success hidden">
+                    <div class="container">
+                        <b>Lorem ipsum</b> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat.
+                    </div>
+                </div>
 
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#intro">Levi Huang</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #3B3A7F">Web Design <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#pemelo">Pemelo</a></li>
+                                    <li><a href="#Ephoto">Ephoto</a></li>
+                                    <li><a href="#appleSystem">Apple System</a></li>
+                                    <li><a href="#clock">Time Symbol</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #3B3A7F">Digital Art Design <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#Xofa">Xofa</a></li>
+                                    <li><a href="#evolution">Evolution</a></li>
+                                    <li><a href="#Xmas">Xmas</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#" style="color: #FFFFFF">Create by 黃立維</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+            <div class="blurred-container">
+                <div class="img-src" style="background-image: url('assets/img/PC250120.jpg')"></div>
+                <div class='img-src blur' style="background-image: url('assets/img/PC250120-2.jpg')"></div>
+
+            </div>
         </div>
-    </div><!--  end navbar -->
+        <!--  end navbar -->
 
-</div> <!-- end menu-dropdown -->
-
-<div class="main">
-    <div class="container tim-container" style="max-width:800px; padding-top:100px">
-       <h1 class="text-center" style="font-family: cursive">~~WELCOME~~ <small class="subtitle">This is a website full of my passion</small><small class="subtitle" style="font-size: 16pt">我喜歡創作，喜歡解決問題</br>我學寫程式，學很多軟體，也學攝影和設計</br>
-           我用這些學來的能力做出了一些作品</br>它們都放在這個網站上了</br>～～歡迎參觀～～</small></h1>
-           <!--     end extras -->        
     </div>
-    <div class="space"></div>
-    <div class="space"></div>
-<!-- end container -->
-</div>
-<!-- end main -->
+    <!-- end menu-dropdown -->
+
+    <div class="main">
+        <div id="intro" class="container intro-container" style="max-width:800px; padding-left:110px; padding-top:210px;">
+            <h1 class="text-left">
+                <small class="subtitle" style="font-size: 17pt; color: #FF7F50;">Welcome to Levi Huang's website!</small>
+                <small class="subtitle" style="font-size: 13pt; color: #555555;">
+                    Here are some of my works since 2013</br>
+                    Including web and digital art designs</br>
+                    I will keep creating some new works</br>
+                    Share your ideas with me!</br>
+                    <a href="mailto:levi102306065@gmail.com" target="_top"> My email: levi102306065@gmail.com</a></br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="pemelo" class="container pemelo-container" style="max-width:800px; padding-left:115px; padding-top:210px;">
+            <h1 class="text-left">
+                <small class="subtitle" style="font-size: 17pt; color: #7FFFD4;">Web design: Pemelo</small>
+                <small class="subtitle" style="font-size: 13pt; color: #CBFFEE;">
+                   <em>Intro: </em>I try to make a website about</br>                    
+                    the pemelo that my grandma grow.(2015)</br>
+                    <em>Skills: </em>layout design(PS), two column(CSS)</br>
+                    <a href="pemelo/index.html">Enter this site</a></br>
+                    </br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="Ephoto" class="container Ephoto-container" style="max-width:800px; padding-left:155px; padding-top:265px;">
+            <h1 class="text-left" style="font-family: cursive">
+                <small class="subtitle" style="font-size: 17pt; color: #FFFFFF;">Web design: Ephoto</small>
+                <small class="subtitle" style="font-size: 13pt; color: #222222;">
+                    <em>Intro: </em>A website to display my</br>                    
+                    photography works.(2015)</br>
+                    <em>Skills: </em>layout design(PS), build</br>
+                    a gallery(jQuery)</br>
+                    <a href="Ephoto/main.html">Enter this site</a></br>
+                    </small></h1>                   
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="appleSystem" class="container appleSystem-container" style="max-width:800px; padding-left:135px; padding-top:220px;">
+            <h1 class="text-left" style="font-family: cursive">
+                <small class="subtitle" style="font-size: 17pt; color: #000000;">Web design: Apple System</small>
+                <small class="subtitle" style="font-size: 13pt; color: #FFFFFF;">
+                    <em>Intro: </em>A system to manage operation and</br>                    
+                    also sales analysis.(2015)</br>
+                    <em>Skills: </em>layout design(PS), web</br>
+                    calculations(JS)</br>
+                    <a href="appleSystem/main.html">Enter this site</a></br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="clock" class="container clock-container" style="max-width:800px; padding-left:150px; padding-top:210px;">
+            <h1 class="text-left" style="font-family: cursive">
+                <small class="subtitle" style="font-size: 17pt; color: #CC3245;">Web design: Time Symbol</small>
+                <small class="subtitle" style="font-size: 13pt; color: #FFFFFF;">
+                    <em>Intro: </em>A website to display current</br>                    
+                    time using symbols.(2015)</br>
+                    <em>Skills: </em>layout design(PS), build</br>
+                    a clock(JS)</br>
+                    <a href="clock/main.html">Enter this site</a></br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="Xofa" class="container Xofa-container" style="max-width:800px; padding-left:110px; padding-top:230px;">
+            <h1 class="text-left" style="font-family: cursive">
+                <small class="subtitle" style="font-size: 17pt; color: #000000;">Digital Art design: Xofa</small>
+                <small class="subtitle" style="font-size: 13pt; color: #5E271D;">
+                    <em>Intro: </em>Once you are on the sofa,</br>                    
+                    a journey starts(2013)</br>
+                    <em>Skills: </em>preasure and distance sencing(Arduino),</br>
+                    sound control(Processing)</br>
+                    <a href="https://www.youtube.com/watch?v=oAHYdspTqGw&index=8&list=PLwW6Rf2wJRLut-aeIdUMpGj3WvMFsxJfI">intro video</a></br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="evolution" class="container evolution-container" style="max-width:800px; padding-left:110px; padding-top:230px;">
+            <h1 class="text-left" style="font-family: cursive">
+                <small class="subtitle" style="font-size: 17pt; color: #000000;">Digital Art design: Evolution</small>
+                <small class="subtitle" style="font-size: 13pt; color: #5E271D;">
+                    <em>Intro: </em>A motion sensing snake game,</br>                    
+                    once you beat the game, the evolution starts!</br>
+                    <em>Skills: </em>motion sensing(kinect), game</br>
+                    flow(Processing)</br>
+                    <a href="https://www.youtube.com/watch?v=4PXvcSB8UzI&list=PLwW6Rf2wJRLuFQlxDRnFN6X_3T1nuTKwR">intro video</a></br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+        <div id="Xmas" class="container Xmas-container" style="max-width:800px; padding-left:130px; padding-top:230px;">
+            <h1 class="text-left" style="font-family: cursive">
+                <small class="subtitle" style="font-size: 17pt; color: #000000;">Digital Art design: Xmas</small>
+                <small class="subtitle" style="font-size: 13pt; color: #5E271D;">
+                    <em>Intro: </em>A website to display my</br>                    
+                    photography works.</br>
+                    <em>Skills: </em>layout design(PS), build</br>
+                    a gallery(jQuery)</br>
+                    <a href="#Xmas">still making the intro video...</a></br>
+                    </small></h1>
+            <!--     end extras -->
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            
+        </div>
+        
+      
+        <!-- end container -->
+    </div>
+    <!-- end main -->
 
 </body>
 
-    <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
-	<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 
-	<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
-	<script src="assets/js/gsdk-checkbox.js"></script>
-	<script src="assets/js/gsdk-radio.js"></script>
-	<script src="assets/js/gsdk-switch.js"></script>
-	<script src="assets/js/get-shit-done.js"></script>
-	
-    <script src="assets/js/custom.js"></script>
+<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+<script src="assets/js/gsdk-checkbox.js"></script>
+<script src="assets/js/gsdk-radio.js"></script>
+<script src="assets/js/gsdk-switch.js"></script>
+<script src="assets/js/get-shit-done.js"></script>
+
+<script src="assets/js/custom.js"></script>
 
 </html>
