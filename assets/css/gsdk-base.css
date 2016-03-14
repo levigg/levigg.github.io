@@ -421,7 +421,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 30px;
 }
 .navbar-nav > li > a {
     margin-top: 13px;

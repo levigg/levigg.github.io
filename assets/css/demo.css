@@ -37,13 +37,13 @@
 }
 .evolution-container{
     background-color: transparent;
-    background-image: url('../img/XofaBg.png');
+    background-image: url('../img/evolutionBg.png');
     background-repeat: no-repeat;
     margin-left: 5%;
 }
 .Xmas-container{
     background-color: transparent;
-    background-image: url('../img/XofaBg.png');
+    background-image: url('../img/XmasBg.png');
     background-repeat: no-repeat;
     margin-left: 5%;
 }
